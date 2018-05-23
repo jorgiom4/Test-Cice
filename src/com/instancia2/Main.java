@@ -17,5 +17,12 @@ public class Main {
 
         System.out.println("Despues del for");
 
+        //Cambios en nueva rama
+        int i = 0;
+        while(i<10){
+            System.out.println("Un bucle while valor de i: " + i);
+            i ++;
+        }
+
     }
 }
