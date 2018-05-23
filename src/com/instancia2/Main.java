@@ -9,7 +9,7 @@ public class Main {
         UnaFuncion();
     }
 
-    static void UnaFuncion(){
+    public static void UnaFuncion(){
         System.out.println("Otra salida por consola");
         for(int i = 0; i<10; i++){
             System.out.println("Valor de i: " + i);
@@ -23,6 +23,7 @@ public class Main {
             System.out.println("Un bucle while valor de i: " + i);
             i ++;
         }
+        System.out.println("Esto es otro cambio en la nueva rama");
 
     }
 }
